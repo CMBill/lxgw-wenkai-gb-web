@@ -15,22 +15,22 @@
 ### 使用 JsDelivr 的 CDN
 #### 最新版本
 ```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-screen-web/style.css
+https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web/style.css
 ```
 
 #### 特定版本 
 将链接中的 `$VERSION` 替换为目标版本号，如 `1.011` 或 `v1.011` 均可。目前仅只提供 `v1.011` 之后的版本。
 ```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-screen-web@VERSION/style.css
+https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web@VERSION/style.css
 ```
 例如请求 `v1.011` 版本的字体：
 ```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-screen-web@1.011/style.css
+https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web@1.011/style.css
 ```
 
 ### 直接使用本仓库链接
 只提供最新版本
 
 ```
-https://cmbill.github.io/lxgw-wenkai-screen-web/style.css
+https://cmbill.github.io/lxgw-wenkai-gb-web/style.css
 ```
