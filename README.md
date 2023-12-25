@@ -1,6 +1,10 @@
 # LXGW WenKai GB / 霞鹜文楷 GB 网络字体仓库
 
-## 仓库仍在完善，但可以初步使用
+> 其他版本霞鹜文楷字体的网络字体仓库：
+>   - [霞鹜文楷 / LXGW WenKai](https://github.com/CMBill/lxgw-wenkai-gb-web)：原版。
+>   - [霞鹜文楷屏幕阅读版 / LXGW WenKai Screen](https://github.com/CMBill/lxgw-wenkai-screen-web)：适用于 PC 和 Android 手机屏幕显示且无需特别切换到粗体。
+>   - [霞鹜文楷 TC / LXGW WenKai TC](https://github.com/CMBill/lxgw-wenkai-tc-web)：繁体中文版。
+
 ## 简介
 [LXGW WenKai GB / 霞鹜文楷 GB](https://github.com/lxgw/LxgwWenkaiGB) 是 [霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 进一步调整字形和笔形后，符合 G 源字形规范的字体，目前包含《通用规范汉字表》8105 个汉字。字体详情请参阅原字体仓库。
 
