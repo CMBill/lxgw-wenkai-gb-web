@@ -1,6 +1,6 @@
 {
     "name": "lxgw-wenkai-gb-web",
-    "version": "1.011.0",
+    "version": "1.011.1",
     "description": "Web font package for LXGW WenKai GB",
     "main": "style.css",
     "style": "style.css",
