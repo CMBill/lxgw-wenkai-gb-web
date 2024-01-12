@@ -71,7 +71,7 @@ https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/fonts/lxgwwenkaimonogb-regular/r
 https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/style.css
 ```
 
-也可指定版本号，将链接中的 `$VERSION` 替换为目标版本号，如 `1.011` 或 `v1.011` 均可。目前仅只提供 `v1.011` 之后的版本。
+也可指定版本号，将链接中的 `$VERSION` 替换为目标版本号（但 npm 的语义化版本号会省略版本号数字开头的 0）如 `1.11` 或 `v1.11` 均可。目前仅只提供 `v1.011` 之后的版本。
 
 ```
 https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@VERSION/style.css
