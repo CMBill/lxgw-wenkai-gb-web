@@ -18,7 +18,7 @@
 ```html
 <html>
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/style.css" />
   <style>
     body {
       font-family: "LXGW WenKai GB";
@@ -56,27 +56,35 @@
 
 例如若只需调用 LXGW Wenkai Mono GB，则只需引入：
 ```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-web/fonts/lxgwwenkaimonogb-regular/result.css
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/fonts/lxgwwenkaimonogb-regular/result.css
 ``` 
 
 ## 链接
 ### 自行部署
 如果下方提供的链接连接效果不甚理想，建议自行部署并配合自己的 CDN 使用。可以直接 Fork 本仓库并启用 Github Pages，使用时将下方链接修改为自己的仓库地址即可，亦可直接克隆本仓库到服务端、对象存储等。
 
-### 使用 JsDelivr 的 CDN
-#### 最新版本
+### 使用 CDN
+#### 作为 npm 包
+目前已作为 npm 包上传到 npmjs，可以使用 npm 包的镜像引用，如JsDelivr 的 npm 镜像：
+
+```
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/style.css
+```
+
+也可指定版本号，将链接中的 `$VERSION` 替换为目标版本号，如 `1.011` 或 `v1.011` 均可。目前仅只提供 `v1.011` 之后的版本。
+
+```
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@VERSION/style.css
+```
+
+#### 使用 JsDelivr 对 GitHub 仓库的 CDN
 ```
 https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web/style.css
 ```
 
-#### 特定版本 
-将链接中的 `$VERSION` 替换为目标版本号，如 `1.011` 或 `v1.011` 均可。目前仅只提供 `v1.011` 之后的版本。
+也可指定版本号，将链接中的 `$VERSION` 替换为目标版本号，如 `1.011` 或 `v1.011` 均可。目前仅只提供 `v1.011` 之后的版本。
 ```
 https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web@VERSION/style.css
-```
-例如请求 `v1.011` 版本的字体：
-```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web@1.011/style.css
 ```
 
 ### 直接使用本仓库链接
