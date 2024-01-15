@@ -36,6 +36,9 @@ jobs:
           echo "${{ steps.down.outputs.tag_name }}" >> ./VERSION
           rm -rf ./tmp/
 
+      - name: Auto Minify
+        uses: nizarmah/auto-minify@v2.1.1
+
       - name: Commit files
         run: |
           git config --global user.email github-actions[bot]@users.noreply.github.com
