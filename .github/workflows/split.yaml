@@ -27,6 +27,7 @@ jobs:
           npm install cn-font-split -g
           rm -rf ./fonts/
           rm -rf ./style.css
+          rm -rf ./VERSION
           for i in $(echo "$(ls ./tmp)" | grep -i '\.ttf$')
           do 
             font_name=$(echo "$i" | sed -E 's/(.+)\.ttf$/\1/i' | tr '[:upper:]' '[:lower:]')
