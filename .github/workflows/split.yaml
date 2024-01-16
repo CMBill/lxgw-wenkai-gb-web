@@ -42,8 +42,8 @@ jobs:
 
       - name: Commit files
         run: |
-          rm VERSION fonts/VERSION
-          rm style.min.css fonts/style.min.css
+          cp VERSION fonts/VERSION
+          cp style.min.css fonts/style.min.css
           cd fonts || exit 1
           git init
           git config --global user.email github-actions[bot]@users.noreply.github.com
