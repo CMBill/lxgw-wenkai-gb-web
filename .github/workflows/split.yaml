@@ -43,6 +43,7 @@ jobs:
       - name: Commit files
         run: |
           cp VERSION fonts/VERSION
+          cp style.css fonts/style.css
           cp style.min.css fonts/style.min.css
           cd fonts || exit 1
           git init
