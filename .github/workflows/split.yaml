@@ -19,7 +19,6 @@ jobs:
         with:
           repository: lxgw/LxgwWenkaiGB
           latest: true
-          # tag: "${{ steps.tagname.outputs.tagname }}"
           out-file-path: "tmp"
 
       - name: Split fonts
@@ -42,21 +41,21 @@ jobs:
 
       - name: Commit files
         run: |
-          cp VERSION fonts/VERSION
-          cp style.css fonts/style.css
-          cp style.min.css fonts/style.min.css
+          mv VERSION fonts/VERSION
+          mv style.css fonts/style.css
+          mv style.min.css fonts/style.min.css
           cd fonts || exit 1
           git init
-          git config --global user.email github-actions[bot]@users.noreply.github.com
-          git config --global user.name github-actions[bot]
+          git config user.email github-actions[bot]@users.noreply.github.com
+          git config user.name github-actions[bot]
           git checkout -b latest
           git status
           git add . 
           git commit -m "update ${{ steps.down.outputs.tag_name }}" -a
           git tag ${{ steps.down.outputs.tag_name }}
-          
+
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.8.0
         with: 
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
