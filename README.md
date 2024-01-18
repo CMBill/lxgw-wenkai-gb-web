@@ -47,12 +47,12 @@
 
 | 字体                      | 链接                                                              |
 | ------------------------- | ----------------------------------------------------------------- |
-| LXGW Wenkai GB            | `https://repositoryURL/fonts/lxgwwenkaigb-regular/result.css`     |
-| LXGW Wenkai GB Bold       | `https://repositoryURL/fonts/lxgwwenkaigb-bold/result.css`        |
-| LXGW Wenkai GB Light      | `https://repositoryURL/fonts/lxgwwenkaigb-light/result.css`       |
-| LXGW WenKai Mono GB       | `https://repositoryURL/fonts/lxgwwenkaimonogb-regular/result.css` |
-| LXGW WenKai Mono GB Bold  | `https://repositoryURL/fonts/lxgwwenkaimonogb-bold/result.css`    |
-| LXGW WenKai Mono GB Light | `https://repositoryURL/fonts/lxgwwenkaimonogb-light/result.css`   | 
+| LXGW Wenkai GB            | `https://repositoryURL/lxgwwenkaigb-regular/result.css`     |
+| LXGW Wenkai GB Bold       | `https://repositoryURL/lxgwwenkaigb-bold/result.css`        |
+| LXGW Wenkai GB Light      | `https://repositoryURL/lxgwwenkaigb-light/result.css`       |
+| LXGW WenKai Mono GB       | `https://repositoryURL/lxgwwenkaimonogb-regular/result.css` |
+| LXGW WenKai Mono GB Bold  | `https://repositoryURL/lxgwwenkaimonogb-bold/result.css`    |
+| LXGW WenKai Mono GB Light | `https://repositoryURL/lxgwwenkaimonogb-light/result.css`   | 
 
 例如若只需调用 LXGW Wenkai Mono GB，则只需引入：
 ```
