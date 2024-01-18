@@ -56,7 +56,7 @@
 
 例如若只需调用 LXGW Wenkai Mono GB，则只需引入：
 ```
-https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/fonts/lxgwwenkaimonogb-regular/result.css
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/lxgwwenkaimonogb-regular/result.css
 ``` 
 
 ## 链接
