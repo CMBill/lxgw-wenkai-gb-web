@@ -18,7 +18,7 @@
 ```html
 <html>
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@latest/style.css" />
   <style>
     body {
       font-family: "LXGW WenKai GB";
@@ -56,7 +56,7 @@
 
 例如若只需调用 LXGW Wenkai Mono GB，则只需引入：
 ```
-https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/lxgwwenkaimonogb-regular/result.css
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@latest/lxgwwenkaimonogb-regular/result.css
 ``` 
 
 ## 链接
@@ -68,7 +68,7 @@ https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/lxgwwenkaimonogb-regular/result.
 目前已作为 npm 包上传到 npmjs，可以使用 npm 包的镜像引用，如JsDelivr 的 npm 镜像：
 
 ```
-https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web/style.css
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@latest/style.css
 ```
 
 也可指定版本号，将链接中的 `$VERSION` 替换为目标版本号（但 npm 的语义化版本号会省略版本号数字开头的 0）如 `1.11` 或 `v1.11` 均可。目前仅只提供 `v1.011` 之后的版本。
