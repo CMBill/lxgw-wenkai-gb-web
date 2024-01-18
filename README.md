@@ -79,10 +79,10 @@ https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@VERSION/style.css
 
 #### 使用 JsDelivr 对 GitHub 仓库的 CDN
 ```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web/style.css
+https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web@latest/style.css
 ```
 
-也可指定版本号，将链接中的 `$VERSION` 替换为目标版本号，如 `1.011` 或 `v1.011` 均可。目前仅只提供 `v1.011` 之后的版本。
+注意，分包后产生的字体和 CSS 文件位于 `latest` 分支，因此**必须加上** `@latest`，否则无法访问到对应文件。也可指定版本号，将链接中的 `$VERSION` 替换为目标版本号，如 `1.011` 或 `v1.011` 均可。目前仅只提供 `v1.011` 之后的版本。
 ```
 https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web@VERSION/style.css
 ```
