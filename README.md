@@ -8,7 +8,7 @@
 ## 简介
 [LXGW WenKai GB / 霞鹜文楷 GB](https://github.com/lxgw/LxgwWenkaiGB) 是 [霞鹜文楷](https://github.com/lxgw/LxgwWenKai) 进一步调整字形和笔形后，符合 G 源字形规范的字体，目前包含《通用规范汉字表》8105 个汉字。字体详情请参阅原字体仓库。
 
-为使原字体更适合进行网络分发，本仓库使用 Github Action，利用[中文网字计划](https://chinese-font.netlify.app/)开发的[字体分包工具](https://github.com/KonghaYao/cn-font-split)对原字体分包，网页加载时只需获取所使用的文字所在的分包，大幅降低所需加载的大小，提升网页加载速度。
+为使原字体更适合进行网络分发，本仓库使用 Github Action，利用[中文网字计划](https://chinese-font.netlify.app/)开发的[字体分包工具](https://github.com/KonghaYao/cn-font-split)对原字体分包，网页加载时只需获取所使用的文字所在的分包，大幅降低所需加载的大小，提升网页加载速度。并已提交 [npm 包](https://www.npmjs.com/package/lxgw-wenkai-gb-web)，进一步利用公开 CDN。
 
 为方便使用，本仓库的版本号将与字体原仓库版本号尽量一致。目前只提供了 `v1.011` 及之后的版本。
 
