@@ -90,10 +90,3 @@ https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web@latest/style.css
 ```
 https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web@VERSION/style.css
 ```
-
-### 直接使用本仓库链接
-只提供最新版本
-
-```
-https://cmbill.github.io/lxgw-wenkai-gb-web/style.css
-```
