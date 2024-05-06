@@ -1,31 +1,34 @@
 {
     "name": "lxgw-wenkai-gb-web",
-    "version": "1.011.1",
+    "version": "1.321.0",
     "description": "Web font package for LXGW WenKai GB",
     "main": "style.css",
     "style": "style.css",
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/CMBill/lxgw-wenkai-gb-web.git"
+        "type": "git",
+        "url": "git+https://github.com/CMBill/lxgw-wenkai-gb-web.git"
     },
     "files": [
-      "fonts",
-      "*.css",
-      "OFL.txt",
-      "VERSION",
-      "README.md"
+        "lxgwwenkaigb-bold",
+        "lxgwwenkaigb-light",
+        "lxgwwenkaigb-regular",
+        "lxgwwenkaimonogb-bold",
+        "lxgwwenkaimonogb-light",
+        "lxgwwenkaimonogb-regular",
+        "*.css",
+        "VERSION"
     ],
     "keywords": [
-      "lxgw-wenkai-gb",
-      "cjk",
-      "font",
-      "webfont",
-      "css"
+        "lxgw-wenkai-gb",
+        "cjk",
+        "font",
+        "webfont",
+        "css"
     ],
     "author": "CM_Bill <callmebill@billw.cn>",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/CMBill/lxgw-wenkai-gb-web/issues"
+        "url": "https://github.com/CMBill/lxgw-wenkai-gb-web/issues"
     },
     "homepage": "https://github.com/CMBill/lxgw-wenkai-gb-web"
-  }
+}
