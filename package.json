@@ -9,10 +9,10 @@
         "url": "git+https://github.com/CMBill/lxgw-wenkai-gb-web.git"
     },
     "files": [
-        "lxgwwenkaigb-bold",
+        "lxgwwenkaigb-medium",
         "lxgwwenkaigb-light",
         "lxgwwenkaigb-regular",
-        "lxgwwenkaimonogb-bold",
+        "lxgwwenkaimonogb-medium",
         "lxgwwenkaimonogb-light",
         "lxgwwenkaimonogb-regular",
         "*.css",
