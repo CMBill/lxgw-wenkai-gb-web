@@ -64,7 +64,7 @@ https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@latest/lxgwwenkaimonogb-regular/
 
 ## 链接
 ### 自行部署
-如果下方提供的链接连接效果不甚理想，建议自行部署并配合自己的 CDN 使用。可以直接 Fork 本仓库并启用 Github Pages，使用时将下方链接修改为自己的仓库地址即可，亦可直接克隆本仓库到服务端、对象存储等。
+如果下方提供的链接连接效果不甚理想，建议自行部署并配合自己的 CDN 使用，可以直接克隆本仓库到服务端、对象存储等。
 
 ### 使用 CDN
 #### 作为 npm 包（推荐）
@@ -78,15 +78,4 @@ https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@latest/style.css
 
 ```
 https://cdn.jsdelivr.net/npm/lxgw-wenkai-gb-web@VERSION/style.css
-```
-
-#### 使用 JsDelivr 对 GitHub 仓库的 CDN
-**由于经测试 JsDelivr 对 Github 仓库的缓存更新时间较长且不确定，因此更建议使用上方 npm 包的链接**
-```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web@latest/style.css
-```
-
-注意，分包后产生的字体和 CSS 文件位于 `latest` 分支，因此**必须加上** `@latest`，否则无法访问到对应文件。也可指定版本号，将链接中的 `$VERSION` 替换为目标版本号，如 `1.011` 或 `v1.011` 均可。目前仅只提供 `v1.011` 之后的版本。
-```
-https://cdn.jsdelivr.net/gh/CMBill/lxgw-wenkai-gb-web@VERSION/style.css
 ```
